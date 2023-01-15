@@ -1,0 +1,17 @@
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\bin\Debug\net6.0\Products.Dal.deps.json
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\bin\Debug\net6.0\Products.Dal.runtimeconfig.json
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\bin\Debug\net6.0\Products.Dal.dll
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\bin\Debug\net6.0\Products.Dal.pdb
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\bin\Debug\net6.0\Products.Domain.dll
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\bin\Debug\net6.0\Products.Domain.pdb
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\obj\Debug\net6.0\Products.Dal.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\obj\Debug\net6.0\Products.Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\obj\Debug\net6.0\Products.Dal.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\obj\Debug\net6.0\Products.Dal.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\obj\Debug\net6.0\Products.Dal.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\obj\Debug\net6.0\Products.Dal.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\obj\Debug\net6.0\Products.Dal.dll
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\obj\Debug\net6.0\refint\Products.Dal.dll
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\obj\Debug\net6.0\Products.Dal.pdb
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\obj\Debug\net6.0\Products.Dal.genruntimeconfig.cache
+C:\Users\Admin\OneDrive\Документы\Web Development\ProductsApp .Net\Products.WebApp\Products.Dal\obj\Debug\net6.0\ref\Products.Dal.dll
