@@ -32,6 +32,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Bll\\Products.Bll.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Bll\\Products.Bll.csproj"
+              },
               "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Dal\\Products.Dal.csproj": {
                 "projectPath": "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Dal\\Products.Dal.csproj"
               }
@@ -48,6 +51,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -85,6 +92,138 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Bll\\Products.Bll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Bll\\Products.Bll.csproj",
+        "projectName": "Products.Bll",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Bll\\Products.Bll.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Bll\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Common\\Products.Common.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Common\\Products.Common.csproj"
+              },
+              "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Dal\\Products.Dal.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Dal\\Products.Dal.csproj"
+              },
+              "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Domain\\Products.Domain.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Domain\\Products.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Common\\Products.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Common\\Products.Common.csproj",
+        "projectName": "Products.Common",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Common\\Products.Common.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Документы\\Web Development\\ProductsApp .Net\\Products.WebApp\\Products.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
