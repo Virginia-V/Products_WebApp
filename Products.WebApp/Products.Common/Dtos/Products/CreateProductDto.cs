@@ -6,7 +6,7 @@ namespace Products.Common.Dtos.Products
     public class CreateProductDto
     {
         [Required]
-        [StringLength(50)]
+        [StringLength(100)]
         public string Title { get; set; }
         [Required]
         public decimal Price { get; set; }

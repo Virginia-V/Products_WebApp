@@ -10,7 +10,7 @@ namespace Products.Dal.EntityConfiguration
         {
             builder.Property(x => x.Title)
                 .IsRequired()
-                .HasMaxLength(50);
+                .HasMaxLength(100);
 
             builder.Property(x => x.Price)
                .IsRequired();
