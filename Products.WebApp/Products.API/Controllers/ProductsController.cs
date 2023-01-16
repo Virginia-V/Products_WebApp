@@ -11,27 +11,29 @@ namespace Products.API.Controllers
     {
         private readonly IProductService _productService;
 
-        public ProductsController(IProductService productService)
+        public ProductsController(IProductService productService, 
+            ILogger<ProductsController> logger) : base(logger)
         {
             _productService = productService;
         }
 
         [HttpGet]
-        public async Task<IEnumerable<ProductDto>> GetProductsAsync()
+        public Task<IActionResult> GetProductsAsync()
         {
-            return await _productService.GetProductsAsync();
+            return HandleAsync(() => _productService.GetProductsAsync());
         }
 
         [HttpGet("{id}")]
-        public async Task<ProductDto> GetProductAsync(int id)
+        public Task<IActionResult> GetProductAsync(int id)
         {
-            return await _productService.GetProductByIdAsync(id);
+            return HandleAsync(() => _productService.GetProductByIdAsync(id));
         }
 
         [HttpPost]
-        public async Task CreateProductAsync([FromBody] CreateProductDto productDto)
+        public Task<IActionResult> CreateProductAsync([FromBody] CreateProductDto productDto)
         {
-            await _productService.CreateProductAsync(productDto);
-        }   
+            return HandleAsync(() => _productService.CreateProductAsync(productDto));
+        }
+
     }
 }
